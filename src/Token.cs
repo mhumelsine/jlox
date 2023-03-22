@@ -1,0 +1,6 @@
+namespace Lox;
+
+class Token
+{
+    
+}
