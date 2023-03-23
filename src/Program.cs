@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Text;
-using Lox;
+using lox;
 
-internal class Program
+internal class Lox
 {
     static bool hadError = false;
 
@@ -64,7 +64,7 @@ internal class Program
             }
         }
 
-        static void Error(int line, string message) => Report(line, "", message);
+        public static void Error(int line, string message) => Report(line, "", message);
 
         static void Report(int line, string where, string mesage)
         {

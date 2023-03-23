@@ -1,4 +1,4 @@
-namespace Lox;
+namespace lox;
 
 enum TokenType
 {
